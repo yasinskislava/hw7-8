@@ -15,6 +15,7 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     height: 252px;
+    padding: 60px 215px;
 }
 ul {
     list-style: none;
@@ -89,6 +90,7 @@ a {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
+    width: 270px;
 }
 .section2 p{
     font-weight: 400;
@@ -102,12 +104,17 @@ a {
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .members-social h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    width: 270px;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
 }
 .members-social p{
     font-weight: 400;
@@ -115,17 +122,13 @@ a {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #757575;
+    width: 270px;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
 }
 .members-photo{
     width: 270px;
     height: 260px;
-    
-}
-.members-social h3{
-    width: 354px;
-}
-.members-social p {
-    width: 354px;
 }
 .bg-color2 {
     background-color: #f5f4fa;
@@ -133,7 +136,7 @@ a {
 .bgtitleheight {
     height: 600px;
 }
-div {
+.title-button {
     display: block;
     text-align: center;
 }
@@ -146,15 +149,48 @@ div {
 }
 .highlight li{
     display: inline;
-    margin-right: 54px;
+    margin-right: 50px;
 }
 .highlight {
     margin: 32px 0px;
     padding: 0px;
 }
-#header-tel {
-    margin: 0px;
-}
 #header-mail {
-    margin-left: auto;
+    margin-left: 120px;
+}
+.section2 {
+    display: flex;
+}
+.section2-padding {
+    padding: 94px 170px;
+}
+.visiblity-section-title {
+    visibility: hidden;
+}
+.section2 li {
+    margin-right: 30px;
+}
+.section-flex {
+    display: flex;
+}
+.section3-padding {
+    padding: 0px 170px 94px;
+}
+.section-flex li {
+    margin-right: 30px;
+}
+.members-social li{
+    width: 270px;
+    height: 368px;
+    background-color: #FFFFFF;
+}
+.members-social{
+    display: flex;
+}
+address{
+    margin-top: 20px;
+}
+.footer-contact a{
+    display: block;
+    margin-top: 9px;
 }
