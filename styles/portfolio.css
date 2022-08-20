@@ -18,7 +18,7 @@
     background-color: #F5F4FA;
     border-radius: 4px;
     border: 1px solid transparent;
-    margin-right: 8px;
+    
 }
 .main-portfolio-nav button:hover {
     color: #FFFFFF;
@@ -70,4 +70,21 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.main-portfolio-nav li{
+    margin-right: 8px;
+}
+.main-portfolio-nav li:last-child {
+    margin-right: 0px;
+}
+.main-portfolio li:nth-child(3n){
+    margin-right: 0px;
+}
+.main-portfolio li:nth-child(7) {
+    margin-bottom: 0px;
+}
+.main-portfolio li:nth-child(8) {
+    margin-bottom: 0px;
+}
+.main-portfolio li:nth-child(9) {
+    margin-bottom: 0px;
+}
