@@ -17,9 +17,41 @@ footer {
     height: 252px;
     padding: 60px 215px;
 }
-ul {
+/* ----------РІЗНЕ---------- */
+ul 
+{
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
+.white-text {
+    color: #FFFFFF;
+}
+.bg-color {
+    background-color: #2F303A;
+}
+.bg-color2 {
+    background-color: #f5f4fa;
+}
+.bgtitleheight {
+    height: 600px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-flex {
+    display: flex;
+}
+.section-flex li {
+    margin-right: 30px;
+}
+/* ----------ЛОГОТИП---------- */
 .logocolor {
     color: #2196F3;
 }
@@ -31,14 +63,22 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-a {
-    text-decoration: none;
+.header-logo {
+    margin: 24px 93px 25px 0px;
 }
+/* ----------КОНТАКТИ---------- */
 .contacts {
     color: #757575;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+#header-mail {
+    margin-left: 120px;
+}
+/* ----------HEADER---------- */
+.highlight a:hover {
+    color: #2196F3;
 }
 .navigation {
     color: #212121;
@@ -46,15 +86,21 @@ a {
     line-height: 1.1;
     letter-spacing: 0.02em;
 }
-.highlight a:hover {
-    color: #2196F3;
+.header-flex {
+    display: flex;
+    justify-content: space-between;
 }
-.white-text {
-    color: #FFFFFF;
+.highlight li {
+    display: inline;
+    margin-right: 50px;
 }
-.bg-color {
-    background-color: #2F303A;
+.highlight {
+    margin: 32px 0px;
+    padding: 0px;
+    display: flex;
 }
+/* ----------MAIN---------- */
+/* ------------------------------------ SECTION 1*/
 .title {
     color: #FFFFFF;
     font-size: 44px;
@@ -68,8 +114,6 @@ a {
 .button_ {
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -80,8 +124,12 @@ a {
     border: 1px solid #2196F3;
     cursor: pointer;
     padding: 1px 6px;
-    
 }
+.title-button {
+    display: block;
+    text-align: center;
+}
+/* ----------------------------------------  SECTION 2*/
 .section2 h3{
     font-weight: 700;
     font-size: 14px;
@@ -96,15 +144,22 @@ a {
     letter-spacing: 0.03em;
     color: #757575;
 }
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
+.section2 {
+    display: flex;
 }
-.members-social h3{
+.section2-padding {
+    padding: 94px 170px;
+}
+.section2 li {
+    margin-right: 30px;
+}
+/*----------------------------------- SECTION 3 */
+
+.section3-padding {
+    padding: 0px 170px 94px;
+}
+/*----------------------------------- SECTION 4 */
+.members-social h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -113,7 +168,8 @@ a {
     text-align: center;
     margin: 30px 0px 10px 0px;
 }
-.members-social p{
+
+.members-social p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -123,58 +179,10 @@ a {
     text-align: center;
     margin: 0px 0px 30px 0px;
 }
-.members-photo{
+
+.members-photo {
     width: 270px;
     height: 260px;
-}
-.bg-color2 {
-    background-color: #f5f4fa;
-}
-.bgtitleheight {
-    height: 600px;
-}
-.title-button {
-    display: block;
-    text-align: center;
-}
-.header-flex {
-    display: flex;
-    justify-content: space-between;
-}
-.header-logo {
-    margin: 24px 93px 25px 0px;
-}
-.highlight li{
-    display: inline;
-    margin-right: 50px;
-}
-.highlight {
-    margin: 32px 0px;
-    padding: 0px;
-}
-#header-mail {
-    margin-left: 120px;
-}
-.section2 {
-    display: flex;
-}
-.section2-padding {
-    padding: 94px 170px;
-}
-.visiblity-section-title {
-    visibility: hidden;
-}
-.section2 li {
-    margin-right: 30px;
-}
-.section-flex {
-    display: flex;
-}
-.section3-padding {
-    padding: 0px 170px 94px;
-}
-.section-flex li {
-    margin-right: 30px;
 }
 .members-social li{
     width: 270px;
@@ -184,6 +192,7 @@ a {
 .members-social{
     display: flex;
 }
+/* ----------FOOTER---------- */
 address{
     margin-top: 20px;
 }
@@ -191,67 +200,4 @@ address{
     display: block;
     margin-top: 9px;
 }
-.main-nav button{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    border: 1px solid transparent;
-    margin-right: 8px;
-}
-.main-nav button:hover{
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
-.portfolio-section{
-    padding: 94px 139px;
-}
-.main-nav{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 34px;
-}
-.main-portfolio h3{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
-    width: 322px;
-    height: 36px;
-    margin: 20px 24px 4px;
-}
-.main-portfolio li{
-    border: 1px solid #EEEEEE;
-    width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-.main-portfolio p{
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
-    width: 322px;
-    height: 30px;
-    margin: 4px 24px 20px;
-}
-.main-portfolio{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.header-border{
-    border: 1px solid #ECECEC;
-}
+
