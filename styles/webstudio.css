@@ -6,7 +6,6 @@ header {
     font-weight: 500;
     display: flex;
     height: 80px;
-    padding: 0px 215px;
 }
 footer {
     font-weight: 400;
@@ -15,12 +14,20 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     height: 252px;
-    padding: 60px 215px;
+    padding: 60px 0px;
 }
 /* ----------РІЗНЕ---------- */
 ul 
 {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 a {
     text-decoration: none;
@@ -34,7 +41,7 @@ a {
 .bg-color2 {
     background-color: #f5f4fa;
 }
-.bgtitleheight {
+.bgtitle {
     height: 600px;
 }
 .section-title {
@@ -136,36 +143,36 @@ a {
     text-align: center;
 }
 /* ----------------------------------------  SECTION 2*/
-.section2 h3{
+.features-list h3{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     width: 270px;
 }
-.section2 p{
+.features-list p{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.section2 {
+.features-list {
     display: flex;
 }
-.section2-padding {
-    padding: 94px 170px;
+.features-section {
+    padding: 94px 0px;
 }
-.section2 li {
+.features-list li {
     margin-right: 30px;
 }
-.section2 li:last-child{
+.features-list li:last-child{
     margin-right: 0px;
 }
 /*----------------------------------- SECTION 3 */
 
 .section3-padding {
-    padding: 0px 170px 94px;
+    padding: 0px 0px 94px;
 }
 /*----------------------------------- SECTION 4 */
 .members-social h3 {

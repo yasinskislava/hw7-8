@@ -15,7 +15,8 @@
 
 <body>
     <header>
-        <nav class="header-flex">
+        <div class="container">
+           <nav class="header-flex">
             <a href="./index.html" class="logo header-logo">
                 <span class="logocolor">Web</span>Studio
             </a>
@@ -28,99 +29,112 @@
                 <li><a href="mailto:info@devstudio.com" class="contacts" id="header-mail">info@devstudio.com</a></li>
                 <li><a href="tel:+3809611111111" class="contacts">+38 096 111 11 111</a></li>
             </ul>
-        </nav>
+        </nav> 
+        </div>
+        
     </header>
 
     <main>
         <!-- Заголовок -->
-        <section class="bg-color bgtitleheight">
-            <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br> ВАШОГО БІЗНЕСУ</h1>
-            <div class="title-button">
-                <button type="button" class="button_">Замовити послугу</button>
+        <section class="bg-color bgtitle">
+                <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br> ВАШОГО БІЗНЕСУ</h1>
+                <div class="title-button">
+                    <button type="button" class="button_">Замовити послугу</button>
             </div>
+            
         </section>
         
         <!-- Особливості -->
-        <section class="section2-padding">
-            <h2 hidden>Особливості</h2>
-            <ul class="section2">
-                <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
-                        Voluptatem veritatis <br> exercitationem velit magnam iure.
-                    </p>
-                </li>
-                <li>
-                    <h3>ПУНКТУАЦІЯ</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
-                        Voluptatem veritatis <br> exercitationem velit magnam iure.
-                    </p>
-                </li>
-                <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
-                        Voluptatem veritatis <br> exercitationem velit magnam iure.
-                    </p>
-                </li>
-                <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
-                        Voluptatem veritatis <br> exercitationem velit magnam iure.
-                    </p>
-                </li>
-            </ul> 
+        <section class="features-section">
+            <div class="container">
+                <h2 hidden>Особливості</h2>
+                <ul class="features-list">
+                    <li>
+                        <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
+                            Voluptatem veritatis <br> exercitationem velit magnam iure.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>ПУНКТУАЦІЯ</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
+                            Voluptatem veritatis <br> exercitationem velit magnam iure.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>ПЛАНУВАННЯ</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
+                            Voluptatem veritatis <br> exercitationem velit magnam iure.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet,consectetur <br> adipisicing elit. 
+                            Voluptatem veritatis <br> exercitationem velit magnam iure.
+                        </p>
+                    </li>
+                </ul> 
+            </div>
+            
         </section>
 
         <!-- Чим ми займаємось -->
         <section class="section3-padding">
-            <h2 class="section-title">Чим ми займаємось</h2>
-            <ul class="section-flex">
-                <li><img src="./images/box1.png" alt="Десктопні застосунки"></li>
-                <li><img src="./images/box2.png" alt="Мобільні застосунки"></li>
-                <li><img src="./images/box3.png" alt="Дизайнерські рішення"></li>
-            </ul>
+            <div class="container">
+                <h2 class="section-title">Чим ми займаємось</h2>
+                <ul class="section-flex">
+                    <li><img src="./images/box1.png" alt="Desktop apps"></li>
+                    <li><img src="./images/box2.png" alt="Mobile apps"></li>
+                    <li><img src="./images/box3.png" alt="Design solutions"></li>
+                </ul>
+            </div>
+            
         </section>
         
         <!-- Наша команда -->
-        <section class="bg-color2 section2-padding">
-            <h2 class="section-title">Наша команда</h2>
-            <ul class="members-social section-flex">
-                <li>
-                    <img src="./images/img1.jpg" alt="#"  class="members-photo">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
-                </li>
+        <section class="bg-color2 features-section">
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="members-social section-flex">
+                    <li>
+                        <img src="./images/img1.jpg" alt="webstudio-member"  class="members-photo">
+                        <h3>Ігор Дем'яненко</h3>
+                        <p>Product Designer</p>
+                    </li>
 
 
-                <li>
-                    <img src="./images/img2.jpg" alt="#"  class="members-photo">
-                    <h3>Ольга Репіна</h3>
-                    <p>Frontend Developer</p>
-                </li>
+                    <li>
+                        <img src="./images/img2.jpg" alt="webstudio-member"  class="members-photo">
+                        <h3>Ольга Репіна</h3>
+                        <p>Frontend Developer</p>
+                    </li>
 
 
-                <li>
-                    <img src="./images/img3.jpg" alt="#"  class="members-photo">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
-                </li>
+                    <li>
+                        <img src="./images/img3.jpg" alt="webstudio-member"  class="members-photo">
+                        <h3>Микола Тарасов</h3>
+                        <p>Marketing</p>
+                    </li>
 
 
-                <li>
-                    <img src="./images/img4.jpg" alt="#"  class="members-photo">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
+                    <li>
+                        <img src="./images/img4.jpg" alt="webstudio-member"  class="members-photo">
+                        <h3>Михайло Єрмаков</h3>
+                        <p>UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+            
         </section>
         
     </main>
 
     <footer>
+        <div class="container">
             <a href="./index.html" class="logo">
                 <span class="logocolor">Web</span><span class="white-text">Studio</span>
             </a>
@@ -129,6 +143,8 @@
                 <a href="mailto:info@example.com" class="contacts">info@example.com</a>
                 <a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
             </div>
+        </div>
+            
             
     </footer>
 </body>

@@ -8,7 +8,6 @@
 
 .main-portfolio-nav button {
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -34,7 +33,6 @@
 }
 .main-portfolio h3 {
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -54,7 +52,6 @@
 
 .main-portfolio p {
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
