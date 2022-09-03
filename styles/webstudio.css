@@ -17,6 +17,9 @@ footer {
     padding: 60px 0px;
 }
 /* ----------РІЗНЕ---------- */
+h1,h2,h3,h4 {
+    margin: 0px;
+}
 ul 
 {
     list-style: none;
@@ -252,6 +255,7 @@ a {
 /* ----------FOOTER---------- */
 address{
     margin-top: 20px;
+    font-style: normal;
 }
 .footer-contact a{
     display: block;
