@@ -130,10 +130,7 @@ a {
 }
 .header-icon {
     margin-right: 10px;
-    fill: #757575;
-}
-.header-icon:hover {
-    fill: #2196F3;
+    fill: currentColor;
 }
 
 /* ----------MAIN---------- */
@@ -310,6 +307,7 @@ a {
     justify-content: center;
     align-items: center;
     border: 1px solid #AFB1B8;
+    color: #AFB1B8;
     border-radius: 4px;
     
 }
@@ -321,16 +319,14 @@ a {
 .reg-customers li:last-child {
     margin: 0px;
 }
-.reg-customers-link svg{
+.customer-icon{
     width: 106px;
     height: 60px;
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 .reg-customers-link:hover {
     border: 1px solid #2196F3;
-}
-.reg-customers-link svg:hover {
-    fill: #2196F3;
+    color: #2196F3;
 }
 .reg-customers-section {
     padding: 94px 0px;
@@ -350,4 +346,5 @@ address{
     line-height: 1.1;
     letter-spacing: 0.03em;
     width: 270px;
+    color: #FFFFFF;
 }
