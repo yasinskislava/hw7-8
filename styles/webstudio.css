@@ -347,4 +347,42 @@ address{
     letter-spacing: 0.03em;
     width: 270px;
     color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-container {
+    display: flex;
+}
+.footer-container > div:last-child{
+    margin: 12px 0px 40px 70px;
+    width: 206px;
+    height: 80px;
+}
+.footer-social {
+    display: flex;
+}
+.footer-social li{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+.footer-social li:last-child{
+    margin: 0px;
+}
+.footer-social svg{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+.social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+.social-link:hover {
+    background-color: #2196F3;
 }
