@@ -6,6 +6,8 @@ header {
     font-weight: 500;
     display: flex;
     height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 footer {
     font-weight: 400;
