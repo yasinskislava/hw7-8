@@ -68,6 +68,26 @@ a {
 }
 .section-flex > li {
     margin-right: 30px;
+    height: 294px;
+}
+.section-flex div{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 27px;
+}
+.section-flex li{
+    position: relative;
 }
 .section-flex li:last-child {
     margin-right: 0px;
