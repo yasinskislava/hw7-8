@@ -16,3 +16,109 @@
     background-color: rgba(0, 0, 0, 0.2);
     top: 0;
 }
+.modal-text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.modal-input {
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    display: block;
+    padding-left: 42px;
+    
+}
+.modal-label {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+    display: block;
+    width: 100%;
+    margin: 12px 0px 0px 0px;
+}
+.modal-label div {
+    position: relative;
+    color: black;
+    margin-top: 4px;
+}
+.modal-coments {
+    height: 120px;
+    position: absolute;
+    padding: 12px 16px;
+}
+.modal-div {
+    height: 138px;
+}
+.close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+.close-button:hover {
+    color: #2196F3;
+}
+.close-button svg {
+    width: 11px;
+    height: 11px;
+    fill: currentColor;
+}
+.modal-icon {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+}
+.modal-input:hover {
+    border-color: #2196F3;
+}
+.modal div:hover{
+    color: #2196F3;
+}
+.modal-checkbox {
+    
+    display: flex;
+    width: 423px;
+    height: 24px;
+    text-align: center;
+    margin: 20px 0px 30px;
+    
+}
+.modal-checkbox p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7; 
+    letter-spacing: 0.03em;
+    color: #757575;
+    width: 400.62px;
+    height: 24px;
+}
+.modal-checkbox a{
+    color: #2196F3;
+    text-decoration: underline;
+}
+.modal-checkbox input{
+    width: 16px;
+    height: 16px;
+}
