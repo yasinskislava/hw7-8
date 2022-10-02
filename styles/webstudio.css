@@ -19,6 +19,10 @@ footer {
     padding: 60px 0px;
 }
 /* ----------РІЗНЕ---------- */
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
 h1,h2,h3,h4 {
     margin: 0px;
 }
