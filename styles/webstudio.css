@@ -69,10 +69,13 @@ a {
 }
 .section-flex {
     display: flex;
+   
 }
 .section-flex > li {
     margin-right: 30px;
     height: 294px;
+    z-index: 1;
+    
 }
 .section-flex div{
     position: absolute;
