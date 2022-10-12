@@ -35,7 +35,7 @@
     border-radius: 4px;
     display: block;
     padding-left: 42px;
-    
+    transition: border-color 250ms linear 50ms;
 }
 .modal-label {
     font-family: 'Roboto';
@@ -60,6 +60,8 @@
 }
 .modal-div {
     height: 138px;
+    transition: fill 250ms linear,
+    color 250ms linear;
 }
 .close-button {
     position: absolute;
@@ -75,6 +77,8 @@
     justify-content: center;
     cursor: pointer;
     color: black;
+    transition: color 250ms linear 50ms,
+    border-color 250ms linear 50ms;
 }
 .close-button:hover {
     color: #2196F3;
@@ -143,6 +147,7 @@
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
+    transition: background-color 250ms linear 50ms;
 }
 .modal-button:hover{
     background-color: #188CE8;
