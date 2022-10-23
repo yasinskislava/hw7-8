@@ -384,6 +384,7 @@ a {
 /* ----------FOOTER---------- */
 address{
     margin-top: 20px;
+    width: 231px;
     font-style: normal;
 }
 .footer-contact a{
@@ -454,6 +455,10 @@ address{
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: border 250ms linear 50ms;
+}
+.footer-input:hover{
+    border-color: #2196F3;
 }
 .footer-svg {
     width: 24px;
