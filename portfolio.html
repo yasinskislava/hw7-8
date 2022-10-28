@@ -17,25 +17,25 @@
 </head>
 
 <body>
-    <header class="header-border">
+        <header class="navigation-underline">
         <div class="container">
-           <nav class="header-flex">
-            <a href="./index.html" class="logo header-logo">
-                <span class="logocolor">Web</span>Studio
+           <nav class="navigation">
+            <a href="./index.html" class="logo navigation__logo">
+                <span class="logospan">Web</span>Studio
             </a>
-            <ul class="highlight">
-                <li><a href="./index.html" class="navigation">Студія</a></li>
-                <li><a href="./portfolio.html" class="navigation" id="highlight-page">Портфоліо</a></li>
-                <li><a href="./contacts.html" class="navigation">Контакти</a></li>
+            <ul class="navigation__list">
+                <li><a href="./index.html" class="navigation__link" id="highlight-page">Студія</a></li>
+                <li><a href="./portfolio.html" class="navigation__link">Портфоліо</a></li>
+                <li><a href="./contacts.html" class="navigation__link">Контакти</a></li>
             </ul>
-            <ul class="highlight">
-                <li><a href="mailto:info@devstudio.com" class="contacts" id="header-mail">
-                    <svg class="header-icon" width="16" height="12">
+            <ul class="navigation__list">
+                <li><a href="mailto:info@devstudio.com" class="contacts" id="navigation__mail">
+                    <svg class="navigation__icon" width="16" height="12">
                         <use href="./images/symbol-defs.svg#mail"></use>
                     </svg>
                     info@devstudio.com</a></li>
                 <li><a href="tel:+3809611111111" class="contacts">
-                    <svg class="header-icon" width="10" height="16">
+                    <svg class="navigation__icon" width="10" height="16">
                         <use href="./images/symbol-defs.svg#tel"></use>
                     </svg>
                     +38 096 111 11 111</a></li>
@@ -46,10 +46,10 @@
     </header>
 
     <main>
-        <section class="portfolio-section">
+        <section class="goods">
             <div class="container">
                 <h1 hidden>Портфоліо</h1>
-                <ul class="main-portfolio-nav">
+                <ul class="goods__nav">
                     <li><button type="button">Усе</button></li>
                     <li><button type="button">Веб-сайти</button></li>
                     <li><button type="button">Застосунки</button></li>
@@ -57,15 +57,15 @@
                     <li><button type="button">Маркетинг</button></li>
                 </ul>
                 <h2 hidden>Портфоліо2</h2>
-                <ul class="main-portfolio">
+                <ul class="goods__list">
                     <!-- --------------1-------------- -->
                     <li>
-                        <div class="portfolio-div">
+                        <div class="goods__description">
                             <img src="./images/port1.jpg" alt="laptop">
-                            <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                            <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                         </div>
                           
-                          <div class="goods-name">
+                          <div class="goods__name">
                                <h3>Техно-кряк</h3>
                                <p>Веб-сайт</p> 
                           </div>  
@@ -75,12 +75,12 @@
                     <!-- --------------2-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port2.jpg" alt="basketball players">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                             
-                            <div  class="goods-name">
+                            <div  class="goods__name">
                                 <h3>Постер New Orlean vs Golden Star</h3>
                                 <p>Дизайн</p>
                             </div>
@@ -89,12 +89,12 @@
                     <!-- --------------3-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port3.jpg" alt="seafood restaurant">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                             
-                            <div class="goods-name">
+                            <div class="goods__name">
                                 <h3>Ресторан Seafood</h3>
                                 <p>Застосунок</p> 
                             </div> 
@@ -104,12 +104,12 @@
                     <!-- --------------4-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port4.jpg" alt="headphones">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                             
-                            <div class="goods-name">
+                            <div class="goods__name">
                                 <h3>Проект Prime</h3>
                                 <p>Маркетинг</p>
                             </div>
@@ -119,12 +119,12 @@
                     <!-- --------------5-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port5.jpg" alt="two boxes">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                             
-                            <div class="goods-name">
+                            <div class="goods__name">
                                <h3>Проект Boxes</h3>
                                 <p>Застосунок</p>   
                             </div>
@@ -133,12 +133,12 @@
                     <!-- --------------6-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port6.jpg" alt="monitor">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                             
-                            <div class="goods-name">
+                            <div class="goods__name">
                                 <h3>Inspiration has no Borders</h3>
                                 <p>Веб-сайт</p>
                             </div>
@@ -148,12 +148,12 @@
                     <!-- --------------7-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port7.jpg" alt="book">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                                 
-                            <div class="goods-name">
+                            <div class="goods__name">
                                 <h3>Видавництво Limited Edition</h3>
                                 <p>Дизайн</p> 
                             </div>
@@ -163,12 +163,12 @@
                     <!-- --------------8-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port8.jpg" alt="tag">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                            
-                           <div class="goods-name">
+                           <div class="goods__name">
                                 <h3>Проект LAB</h3>
                                 <p>Маркетинг</p> 
                            </div>
@@ -178,12 +178,12 @@
                     <!-- --------------9-------------- -->
                     <li>
                         <div>
-                            <div class="portfolio-div">
+                            <div class="goods__description">
                                 <img src="./images/port9.jpg" alt="printing on laptop">
-                                <p class="portfolio-overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
+                                <p class="goods__overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit similique explicabo dignissimos laboriosam facere inventore quos id dolorum omnis, nemo a consectetur in hic mollitia totam ipsam perferendis dicta quaerat.</p>
                             </div>
                            
-                           <div class="goods-name">
+                           <div class="goods__name">
                                 <h3>Growing Business</h3>
                                 <p>Застосунок</p> 
                            </div>
@@ -197,44 +197,44 @@
     </main>
 
     <footer>
-        <div class="container footer-container">
+        <div class="container footer__container">
             <div>
-                <a href="./index.html" class="logo">
-                    <span class="logocolor">Web</span><span class="white-text">Studio</span>
+                <a href="./index.html" class="logo footer__logo">
+                    <span class="logospan">Web</span><span class="white-text">Studio</span>
                 </a>
                 <address class="white-text">м. Київ, пр-т Лесі Українки, 26</address> 
-                <div class="footer-contact">
+                <div class="footer__contact">
                     <a href="mailto:info@example.com" class="contacts">info@example.com</a>
                     <a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
                 </div>
             </div>  
             
             <div>
-                <h3 class="footer-title">ПРИЄДНУЙТЕСЬ</h3>
-                <ul class="footer-social">
+                <h3 class="footer__title">ПРИЄДНУЙТЕСЬ</h3>
+                <ul class="footer__social">
                         <li>
-                            <a href="https://www.instagram.com" class="social-link">
+                            <a href="https://www.instagram.com" class="footer__social-link">
                                 <svg>
                                     <use href="./images/symbol-defs.svg#instagram"></use>
                                 </svg>
                             </a> 
                         </li>
                         <li>
-                            <a href="https://www.twitter.com" class="social-link">
+                            <a href="https://www.twitter.com" class="footer__social-link">
                                 <svg>
                                     <use href="./images/symbol-defs.svg#twitter"></use>
                                 </svg>
                             </a> 
                         </li>
                         <li>
-                            <a href="https://www.facebook.com" class="social-link">
+                            <a href="https://www.facebook.com" class="footer__social-link">
                                 <svg>
                                     <use href="./images/symbol-defs.svg#facebook"></use>
                                 </svg>
                             </a> 
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com" class="social-link">
+                            <a href="https://www.linkedin.com" class="footer__social-link">
                                 <svg>
                                     <use href="./images/symbol-defs.svg#linkedin"></use>
                                 </svg>
@@ -244,12 +244,12 @@
             </div>
 
             <div>
-                <h3 class="footer-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+                <h3 class="footer__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
                 <div class="section-flex">
-                    <input type="text" class="footer-input" placeholder="E-mail">
-                    <button class="modal-button footer-flex">
+                    <input type="text" class="footer__input" placeholder="E-mail">
+                    <button class="btn footer__btn">
                         Підписатись
-                        <svg class="footer-svg">
+                        <svg class="footer__icon">
                             <use href="./images/symbol-defs.svg#send"></use>
                         </svg>
                     </button>

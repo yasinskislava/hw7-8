@@ -1,12 +1,12 @@
 /* ----------HEADER----------  */
 
-.header-border {
+.navigation-underline {
     border: 1px solid #ECECEC;
 }
 
 /* ----------MAIN----------  */
 
-.main-portfolio-nav button {
+.goods__nav button {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
@@ -23,20 +23,20 @@
     background-color 250ms linear 50ms,
     box-shadow 250ms linear 50ms;
 }
-.main-portfolio-nav button:hover {
+.goods__nav button:hover {
     color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.portfolio-section {
+.goods {
     padding: 94px 0px;
 }
-.main-portfolio-nav {
+.goods__nav {
     display: flex;
     justify-content: center;
     margin-bottom: 34px;
 }
-.main-portfolio h3 {
+.goods__list h3 {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 18px;
@@ -48,7 +48,7 @@
     margin: 20px 24px 4px;
 }
 
-.main-portfolio li {
+.goods__list li {
     border: 1px solid #EEEEEE;
     width: 370px;
     height: 410px;
@@ -58,10 +58,10 @@
     transition: box-shadow 250ms linear 50ms;
     overflow: hidden;
 }
-.main-portfolio li:hover{
+.goods__list li:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.goods-name p {
+.goods__name p {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
@@ -73,14 +73,14 @@
     margin: 4px 24px 20px;
 }
 
-.main-portfolio {
+.goods__list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     
 }
-.portfolio-overlay{
-    width: 370px;
+.goods__overlay{
+    width: 368px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.9);
     position: absolute;
@@ -100,34 +100,34 @@
     transform: translateY(100%);
     opacity: 0;
 }
-.portfolio-overlay:hover{
+.goods__overlay:hover{
     opacity: 1;
     transform: translateY(0); 
 }
-.goods-name {
+.goods__name {
     width: 370px;
     background-color: #FFFFFF;
     
 }
-.main-portfolio-nav li{
+.goods__nav li{
     margin-right: 8px;
 }
-.main-portfolio-nav li:last-child {
+.goods__nav li:last-child {
     margin-right: 0px;
 }
-.main-portfolio li:nth-child(3n){
+.goods__list li:nth-child(3n){
     margin-right: 0px;
 }
-.main-portfolio li:nth-child(7) {
+.goods__list li:nth-child(7) {
     margin-bottom: 0px;
 }
-.main-portfolio li:nth-child(8) {
+.goods__list li:nth-child(8) {
     margin-bottom: 0px;
 }
-.main-portfolio li:nth-child(9) {
+.goods__list li:nth-child(9) {
     margin-bottom: 0px;
 }
-.portfolio-div{
+.goods__description{
     position: relative;
    
 }
