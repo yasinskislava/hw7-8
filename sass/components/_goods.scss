@@ -1,11 +1,6 @@
-/* ----------HEADER----------  */
-
 .navigation-underline {
     border: 1px solid #ECECEC;
 }
-
-/* ----------MAIN----------  */
-
 .goods__nav button {
     font-family: "Roboto";
     font-weight: 500;
@@ -20,22 +15,26 @@
     height: 38px;
     padding: 0px 22px;
     transition: color 250ms linear 50ms,
-    background-color 250ms linear 50ms,
-    box-shadow 250ms linear 50ms;
+        background-color 250ms linear 50ms,
+        box-shadow 250ms linear 50ms;
 }
+
 .goods__nav button:hover {
     color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .goods {
     padding: 94px 0px;
 }
+
 .goods__nav {
     display: flex;
     justify-content: center;
     margin-bottom: 34px;
 }
+
 .goods__list h3 {
     font-family: "Roboto";
     font-weight: 700;
@@ -58,9 +57,11 @@
     transition: box-shadow 250ms linear 50ms;
     overflow: hidden;
 }
-.goods__list li:hover{
+
+.goods__list li:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .goods__name p {
     font-family: "Roboto";
     font-weight: 400;
@@ -77,9 +78,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-.goods__overlay{
+
+.goods__overlay {
     width: 368px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.9);
@@ -96,38 +98,47 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
     transition: opacity 250ms linear 50ms,
-    transform 250ms linear 50ms;
+        transform 250ms linear 50ms;
     transform: translateY(100%);
     opacity: 0;
 }
-.goods__overlay:hover{
+
+.goods__overlay:hover {
     opacity: 1;
-    transform: translateY(0); 
+    transform: translateY(0);
 }
+
 .goods__name {
     width: 370px;
     background-color: #FFFFFF;
-    
+
 }
-.goods__nav li{
+
+.goods__nav li {
     margin-right: 8px;
 }
+
 .goods__nav li:last-child {
     margin-right: 0px;
 }
-.goods__list li:nth-child(3n){
+
+.goods__list li:nth-child(3n) {
     margin-right: 0px;
 }
+
 .goods__list li:nth-child(7) {
     margin-bottom: 0px;
 }
+
 .goods__list li:nth-child(8) {
     margin-bottom: 0px;
 }
+
 .goods__list li:nth-child(9) {
     margin-bottom: 0px;
 }
-.goods__description{
+
+.goods__description {
     position: relative;
-   
+
 }
