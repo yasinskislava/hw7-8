@@ -1,6 +1,4 @@
-.logospan {
-    color: #2196F3;
-}
+
 
 .logo {
     font-family: "Raleway";
@@ -9,6 +7,10 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    
+    &span {
+        color: #2196F3;
+    }
 }
 
 .navigation__logo {

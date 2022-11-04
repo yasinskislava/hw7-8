@@ -1,6 +1,12 @@
-.modal div:last-child {
-    text-align: center;
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    z-index: 2;
 }
+
 .modal {
     position: fixed;
     width: 528px;
@@ -12,67 +18,91 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 40px;
+
+    div:last-child 
+    {
+        text-align: center;
+    }
+
+    &__icon 
+    {
+        position: absolute;
+        top: 13px;
+        left: 12px;
+        width: 14px;
+        height: 14px;
+        fill: currentColor;
+    }
+
+    &__input:hover 
+    {
+        border-color: #2196F3;
+    }
+
+    div:hover 
+    {
+        color: #2196F3;
+    }
+
+    &__text 
+    {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin: 0px 0px 15px;
+    }
+
+    &__input 
+    {
+        width: 448px;
+        height: 40px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        display: block;
+        padding-left: 42px;
+        transition: border-color 250ms linear 50ms;
+    }
+
+    &__input-name 
+    {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.01em;
+        color: #757575;
+        display: block;
+        width: 100%;
+        margin: 12px 0px 0px 0px;
+    }
+
+    &__input-name div 
+    {
+        position: relative;
+        color: black;
+        margin-top: 4px;
+    }
+
+    &__coments 
+    {
+        height: 120px;
+        position: absolute;
+        padding: 12px 16px;
+    }
+
+    &__div 
+    {
+        height: 138px;
+        transition: fill 250ms linear,
+            color 250ms linear;
+    }
 }
 
-.backdrop {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    top: 0;
-    z-index: 2;
-}
 
-.modal__text {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin: 0px 0px 15px;
-}
-
-.modal__input {
-    width: 448px;
-    height: 40px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    display: block;
-    padding-left: 42px;
-    transition: border-color 250ms linear 50ms;
-}
-
-.modal__input-name {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    color: #757575;
-    display: block;
-    width: 100%;
-    margin: 12px 0px 0px 0px;
-}
-
-.modal__input-name div {
-    position: relative;
-    color: black;
-    margin-top: 4px;
-}
-
-.modal__coments {
-    height: 120px;
-    position: absolute;
-    padding: 12px 16px;
-}
-
-.modal__div {
-    height: 138px;
-    transition: fill 250ms linear,
-        color 250ms linear;
-}
 
 .modal__close-button {
     position: absolute;
@@ -90,35 +120,21 @@
     color: black;
     transition: color 250ms linear 50ms,
         border-color 250ms linear 50ms;
+
+    &:hover 
+    {
+        color: #2196F3;
+        border-color: #2196F3;
+    }
+
+    svg 
+    {
+        width: 11px;
+        height: 11px;
+        fill: currentColor;
+    }   
 }
 
-.modal__close-button:hover {
-    color: #2196F3;
-    border-color: #2196F3;
-}
-
-.modal__close-button svg {
-    width: 11px;
-    height: 11px;
-    fill: currentColor;
-}
-
-.modal__icon {
-    position: absolute;
-    top: 13px;
-    left: 12px;
-    width: 14px;
-    height: 14px;
-    fill: currentColor;
-}
-
-.modal__input:hover {
-    border-color: #2196F3;
-}
-
-.modal div:hover {
-    color: #2196F3;
-}
 
 .modal__checkbox {
 
@@ -130,29 +146,32 @@
     margin: 20px 0px 30px;
     padding: 0px 12px;
 
+    p 
+    {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: #757575;
+        width: 390px;
+        height: 24px;
+    }
+
+    a 
+    {
+        color: #2196F3;
+        text-decoration: underline;
+    }
+
+    input 
+    {
+        width: 16px;
+        height: 16px;
+    }
 }
 
-.modal__checkbox p {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #757575;
-    width: 390px;
-    height: 24px;
-}
 
-.modal__checkbox a {
-    color: #2196F3;
-    text-decoration: underline;
-}
-
-.modal__checkbox input {
-    width: 16px;
-    height: 16px;
-
-}
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;

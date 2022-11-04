@@ -4,19 +4,22 @@
         linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/img.jpg);
-}
-.hero__title {
-    color: #FFFFFF;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-align: center;
-    padding-top: 200px;
-    margin: 0px;
-    padding-bottom: 30px;
-}
 
-.hero__btn {
-    display: block;
-    text-align: center;
+    &__title 
+    {
+        color: #FFFFFF;
+        font-size: 44px;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+        text-align: center;
+        padding-top: 200px;
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+
+    &__btn 
+    {
+        display: block;
+        text-align: center;
+    }
 }

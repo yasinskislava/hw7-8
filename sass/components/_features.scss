@@ -1,61 +1,81 @@
-.features__list h3 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    width: 270px;
-}
-
-.features__list p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-
-.features__list {
-    display: flex;
-}
-
 .features {
     padding: 94px 0px;
 }
 
-.features__list li {
-    margin-right: 30px;
+.features__list 
+{
+    display: flex;
+    h3 
+    {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        width: 270px;
+    }
+    p 
+    {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    li 
+    {
+        margin-right: 30px;
+    }
+    li:last-child 
+    {
+        margin-right: 0px;
+    }
+    li::before 
+    {
+        content: "";
+        display: block;
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #F5F4FA;
+        margin-bottom: 30px;
+    }
+    li:nth-child(1)::before 
+    {
+        background-image: url(../images/fe1.png);
+        background-size: 70px 70px;
+    }
+
+    li:nth-child(2)::before 
+    {
+        background-image: url(../images/fe2.png);
+        background-size: 70px 70px;
+    }
+
+    li:nth-child(3)::before 
+    {
+        background-image: url(../images/fe3.png);
+        background-size: 70px 70px;
+    }
+
+    li:nth-child(4)::before 
+    {
+        background-image: url(../images/fe4.png);
+        background-size: 70px 70px;
+    }
 }
 
-.features__list li:last-child {
-    margin-right: 0px;
-}
 
-.features__list li::before {
-    content: "";
-    display: block;
-    height: 120px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
-    margin-bottom: 30px;
-}
 
-.features__list li:nth-child(1)::before {
-    background-image: url(../images/fe1.png);
-    background-size: 70px 70px;
-}
 
-.features__list li:nth-child(2)::before {
-    background-image: url(../images/fe2.png);
-    background-size: 70px 70px;
-}
 
-.features__list li:nth-child(3)::before {
-    background-image: url(../images/fe3.png);
-    background-size: 70px 70px;
-}
 
-.features__list li:nth-child(4)::before {
-    background-image: url(../images/fe4.png);
-    background-size: 70px 70px;
-}
+
+
+
+
+
+
+
+
+
+
