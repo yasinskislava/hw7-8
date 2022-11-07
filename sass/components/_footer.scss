@@ -1,9 +1,9 @@
+@import "../base/pattern";
+
 footer {
     font-weight: 400;
     background-color: #2F303A;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @extend %usualfont;
     height: 252px;
     padding: 60px 0px;
 }
@@ -89,7 +89,7 @@ address {
 
     &:hover 
     {
-        border-color: #2196F3;
+        border-color: $gencolor;
     }
 }
 

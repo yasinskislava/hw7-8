@@ -1,3 +1,9 @@
+.modal__checkbox p, .features__list p, .contacts, footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .btn {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -86,6 +92,12 @@ a {
   text-decoration: none;
 }
 
+.modal__checkbox p, .features__list p, .contacts, footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 header {
   font-weight: 500;
   display: flex;
@@ -155,12 +167,15 @@ body {
   color: #212121;
 }
 
-footer {
-  font-weight: 400;
-  background-color: #2F303A;
+.modal__checkbox p, .features__list p, .contacts, footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+footer {
+  font-weight: 400;
+  background-color: #2F303A;
   height: 252px;
   padding: 60px 0px;
 }
@@ -261,11 +276,14 @@ address {
   padding: 0px 0px 94px;
 }
 
-.contacts {
-  color: #757575;
+.modal__checkbox p, .features__list p, .contacts, footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+.contacts {
+  color: #757575;
   display: flex;
   align-items: center;
   transition: color 250ms linear 50ms;
@@ -273,6 +291,12 @@ address {
 
 #navigation__mail {
   margin-left: 299px;
+}
+
+.modal__checkbox p, .features__list p, footer, .contacts {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .customers {
@@ -312,6 +336,12 @@ address {
   color: #2196F3;
 }
 
+.modal__checkbox p, .features__list p, footer, .contacts {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .features {
   padding: 94px 0px;
 }
@@ -328,9 +358,6 @@ address {
 }
 .features__list p {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 .features__list li {
@@ -365,6 +392,12 @@ address {
   background-size: 70px 70px;
 }
 
+.modal__checkbox p, footer, .contacts, .features__list p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .hero {
   height: 600px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.jpg);
@@ -384,6 +417,12 @@ address {
   text-align: center;
 }
 
+.modal__checkbox p, footer, .contacts, .features__list p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
 .logo {
   font-family: "Raleway";
   color: #000000;
@@ -398,6 +437,12 @@ address {
 
 .navigation__logo {
   margin: 24px 93px 25px 0px;
+}
+
+.modal__checkbox p, footer, .contacts, .features__list p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .backdrop {
@@ -521,9 +566,6 @@ address {
 .modal__checkbox p {
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
   color: #757575;
   width: 390px;
   height: 24px;
@@ -540,6 +582,12 @@ address {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+
+footer, .contacts, .features__list p, .modal__checkbox p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .team {

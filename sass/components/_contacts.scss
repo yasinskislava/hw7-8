@@ -1,8 +1,8 @@
+@import "../base/pattern";
+
 .contacts {
-    color: #757575;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    color: $passivecolor;
+    @extend %usualfont;
     display: flex;
     align-items: center;
     transition: color 250ms linear 50ms;

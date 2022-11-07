@@ -1,3 +1,5 @@
+@import "../base/pattern";
+
 .backdrop {
     position: fixed;
     width: 100%;
@@ -36,12 +38,12 @@
 
     &__input:hover 
     {
-        border-color: #2196F3;
+        border-color: $gencolor;
     }
 
     div:hover 
     {
-        color: #2196F3;
+        color: $gencolor;
     }
 
     &__text 
@@ -74,7 +76,7 @@
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 0.01em;
-        color: #757575;
+        color: $passivecolor;
         display: block;
         width: 100%;
         margin: 12px 0px 0px 0px;
@@ -123,8 +125,8 @@
 
     &:hover 
     {
-        color: #2196F3;
-        border-color: #2196F3;
+        color: $gencolor;
+        border-color: $gencolor;
     }
 
     svg 
@@ -150,17 +152,15 @@
     {
         font-family: 'Roboto';
         font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: #757575;
+        @extend %usualfont;
+        color: $passivecolor;
         width: 390px;
         height: 24px;
     }
 
     a 
     {
-        color: #2196F3;
+        color: $gencolor;
         text-decoration: underline;
     }
 

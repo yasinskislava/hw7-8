@@ -1,3 +1,5 @@
+@import "../base/pattern";
+
 .customers {
     padding: 94px 0px;
     
@@ -39,8 +41,8 @@
 
     &:hover 
     {
-        border: 1px solid #2196F3;
-        color: #2196F3;
+        border: 1px solid $gencolor;
+        color: $gencolor;
     }    
 }
 

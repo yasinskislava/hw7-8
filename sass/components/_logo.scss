@@ -1,4 +1,4 @@
-
+@import "../base/pattern";
 
 .logo {
     font-family: "Raleway";
@@ -9,7 +9,7 @@
     letter-spacing: 0.03em;
     
     &span {
-        color: #2196F3;
+        color: $gencolor;
     }
 }
 
