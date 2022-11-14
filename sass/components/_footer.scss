@@ -1,128 +1,207 @@
 @import "../utils/pattern";
 
 footer {
-    font-weight: 400;
-    background-color: #2F303A;
-    @extend %usualfont;
-    height: 252px;
-    padding: 60px 0px;
+    @media screen and (min-width: 480px) 
+    {
+        font-weight: 400;
+        background-color: #2F303A;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        padding: 60px 0px;
+    }
+    
 }
 
 address {
-    margin-top: 20px;
-    width: 231px;
-    font-style: normal;
+    @media screen and (min-width: 480px) 
+    {
+        margin-top: 20px;
+        width: 231px;
+        font-style: normal; 
+    }
+    
 }
 
-.footer__container {
-    display: flex;
-    
-    & > div:nth-child(2) 
+.footer__container 
+{
+    @media screen and (min-width: 480px) 
     {
-        margin: 12px 0px 40px 70px;
-
-    }
-
-    & > div:nth-child(3) {
-        margin: 12px 0px 40px 70px;
-
-    }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+        > div
+        {
+            @media screen and (min-width: 480px) 
+            {
+               margin-bottom: 60px; 
+               text-align: center;
+            }
+            
+        }
+        > div:last-child
+        {
+            @media screen and (min-width: 480px)
+            {
+               margin: 0px; 
+            }
+        } 
+    
+    
 }
 
 .footer__social 
 {
-    display: flex;
+    @media screen and (min-width: 480px) 
+    {
+       display: flex;  
+       justify-content: center;
+    }
+    
 
     li 
     {
-        width: 44px;
-        height: 44px;
-        margin-right: 10px;
+            width: 44px;
+            height: 44px;
+            margin-right: 10px;
+        
+        
     }
 
     li:last-child 
     {
-        margin: 0px;
+        
+           margin: 0px; 
+        
     }
 
     svg 
     {
-        width: 20px;
-        height: 20px;
-        fill: currentColor;
+        
+            width: 20px;
+            height: 20px;
+            fill: currentColor; 
+        
+        
     }
 
     &-link 
     {
-        width: 44px;
-        height: 44px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 25px;
-        color: #FFFFFF;
-        transition: background-color 250ms linear 50ms;
+        
+            width: 44px;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            color: #FFFFFF;
+            transition: background-color 250ms linear 50ms;
+        
     }
 
     &-link:hover 
     {
-        background-color: #2196F3;
+        
+            background-color: #2196F3;
+        
+        
     }
 }
 
-.footer__input {
-    width: 358px;
-    height: 50px;
-    background-color: #2F303A;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    margin-right: 12px;
-    padding-left: 16px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    transition: border 250ms linear 50ms;
+.footer__input 
+{
+    @media screen and (min-width: 480px) 
+    {
+        width: 358px;
+        height: 50px;
+        background-color: #2F303A;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding-left: 16px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        transition: border 250ms linear 50ms;
+    }
 
     &:hover 
     {
-        border-color: $gencolor;
+        @media screen and (min-width: 480px) 
+        {
+            border-color: $gencolor;
+        }
     }
 }
 
 .footer {
     &__icon 
     {
-        width: 24px;
-        height: 24px;
-        fill: #FFFFFF;
-        margin-left: 10px;
+        @media screen and (min-width: 480px) 
+        {
+            width: 24px;
+            height: 24px;
+            fill: #FFFFFF;
+            margin-left: 10px;
+        }
     }
 
     &__btn 
     {
-        display: flex;
-        align-items: center;
-        padding: 0px 28px;
+        @media screen and (min-width: 480px) 
+        {
+            display: flex;
+            align-items: center;
+            padding: 0px 28px;
+        }
+        
     }
     &__title 
     {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.1;
-        letter-spacing: 0.03em;
-        width: 270px;
-        color: #FFFFFF;
-        margin-bottom: 20px;
+        @media screen and (min-width: 480px) 
+        {
+            width: 100%;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.1;
+            letter-spacing: 0.03em;
+            width: 100%;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
     }
 
     &__contact a 
     {
-        display: block;
-        margin-top: 9px;
+        @media screen and (min-width: 480px) 
+        {
+            display: block;
+            margin-top: 8px;
+        }
+    }
+    &-logo 
+    {   
+        @media screen and (min-width:480px) 
+        {
+            align-items: center; 
+              
+        }
+    }
+    &__ads
+    {
+        @media screen and (min-width:480px) 
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }
     }
 }
 

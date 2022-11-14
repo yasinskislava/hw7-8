@@ -1,27 +1,52 @@
 @import "../utils/pattern";
 
-.hero {
-    height: 600px;
-    background-image:
-        linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
-        url(../images/img.jpg);
 
-    &__title 
-    {
-        color: #FFFFFF;
-        font-size: 44px;
-        line-height: 1.4;
-        letter-spacing: 0.06em;
-        text-align: center;
-        padding-top: 200px;
-        margin: 0px;
-        padding-bottom: 30px;
-    }
+    .hero {
+        @media screen and (min-width:480px)
+        {
+            width: 100%;
+            height: 400px;
+            background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/img-m.jpg);
+            padding: 118px 60px;
+        }
+        @media screen and (min-width:768px) 
+        {
+            background-image:
+                    linear-gradient(rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)),
+                    url(../images/img-t.jpg);
+        }
+        
+        
 
-    &__btn 
-    {
-        display: block;
-        text-align: center;
+        &__title 
+        {
+            @media screen and (min-width:480px) 
+            {
+                font-family: 'Roboto';
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 1.6;
+                text-align: center;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                
+                margin: 0px;
+                padding-bottom: 30px;
+            }
+            
+        }
+
+        &__btn 
+        {
+            @media screen and (min-width:480px) 
+            {
+                display: block;
+                text-align: center;
+            }
+        }
     }
-}
