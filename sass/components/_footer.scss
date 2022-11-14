@@ -31,6 +31,20 @@ address {
         flex-direction: column;
         align-items: center;
     }    
+    @media screen and (min-width:768px) 
+    {
+        flex-direction: row;
+        flex-wrap: wrap; 
+        padding: 0px 75px;   
+    }
+        > div:nth-child(2)
+        {
+            @media screen and (min-width:768px) 
+            {
+                margin-left: 175px;
+                height: 139px;
+            }
+        }
         > div
         {
             @media screen and (min-width: 480px) 
@@ -38,13 +52,16 @@ address {
                margin-bottom: 60px; 
                text-align: center;
             }
-            
         }
         > div:last-child
         {
             @media screen and (min-width: 480px)
             {
                margin: 0px; 
+            }
+            @media screen and (min-width: 768px) 
+            {
+                width: 100%;    
             }
         } 
     
@@ -129,7 +146,10 @@ address {
         color: rgba(255, 255, 255, 0.6);
         transition: border 250ms linear 50ms;
     }
-
+    @media screen and (min-width:768px) 
+    {
+        width: 450px;    
+    }
     &:hover 
     {
         @media screen and (min-width: 480px) 
