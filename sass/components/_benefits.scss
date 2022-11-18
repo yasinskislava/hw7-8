@@ -1,7 +1,14 @@
 .benefits {
+    padding: 0px 0px 94px;
     @media screen and (max-width:1199px) 
     {
         display: none;
-        padding: 0px 0px 94px;
+        
+    }
+    ul 
+    {
+        width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
     } 
 }
