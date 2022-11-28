@@ -3,9 +3,13 @@
 header {
     font-weight: 500;
     display: flex;
-    height: 80px;
     width: 100%;
     background-color: #FFFFFF;
+    position: relative;
+    @media screen and (min-width:480px) 
+    {
+        height: 60px;    
+    }
 }
 
 
@@ -41,8 +45,11 @@ header {
 .navigation__list {
     margin: 32px 0px;
     padding: 0px;
-    display: flex;
-
+    display: none;
+    @media screen and (min-width:768px)
+    {
+        display: flex;
+    }
     a:hover 
     {
         color: $gencolor;
@@ -60,6 +67,7 @@ header {
     {
         margin-right: 0px;
     }
+    
 }
 
 #highlight-page {
@@ -75,4 +83,32 @@ header {
     bottom: 0px;
     background-color: $gencolor;
     border-radius: 2px;
+}
+.header__modal
+{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 7px;
+    svg
+    {
+        width: 44px;
+        height: 44px;
+    }
+}
+.header__icon-cross
+{
+    display: none;
+}
+.mobile-menu
+{
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    top: 100%;
+    left: 0;
+    background-color: grey;
 }

@@ -20,7 +20,7 @@
             <a href="./index.html" class="logo navigation__logo">
                 <span class="logospan">Web</span>Studio
             </a>
-            <!-- <ul class="navigation__list">
+            <ul class="navigation__list">
                 <li><a href="./index.html" class="navigation__link" id="highlight-page">Студія</a></li>
                 <li><a href="./portfolio.html" class="navigation__link">Портфоліо</a></li>
                 <li><a href="./contacts.html" class="navigation__link">Контакти</a></li>
@@ -36,7 +36,16 @@
                         <use href="./images/symbol-defs.svg#tel"></use>
                     </svg>
                     +38 096 111 11 111</a></li>
-            </ul> -->
+            </ul>
+            <a class="header__modal" href="" data-menu-button>
+                <svg>
+                    <use class="header__icon-menu" href="./images/symbol-defs.svg#menu"></use>
+                    <use class="header__icon-cross" href="./images/symbol-defs.svg#cross"></use>
+                </svg>
+            </a>
+            <div data-menu class="mobile-menu">
+
+            </div>
         </nav> 
         </div>
         
@@ -463,25 +472,7 @@
             
             
     </footer>
-    <script>
-      const refs = {
-        openModalBtn: document.querySelector("[data-open-modal]"),
-        closeModalBtn: document.querySelector("[data-close-modal]"),
-        backdrop: document.querySelector("[data-backdrop]"),
-      };
-
-      refs.openModalBtn.addEventListener("click", toggleModal);
-      refs.closeModalBtn.addEventListener("click", toggleModal);
-
-      refs.backdrop.addEventListener("click", logBackdropClick);
-
-      function toggleModal() {
-        refs.backdrop.classList.toggle("is-hidden");
-      }
-
-      function logBackdropClick() {
-        console.log("Це клік в бекдроп");
-      }
-    </script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
