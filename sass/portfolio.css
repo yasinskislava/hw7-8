@@ -105,7 +105,8 @@ header {
   display: flex;
   width: 100%;
   background-color: #FFFFFF;
-  position: relative;
+  position: fixed;
+  z-index: 2;
 }
 @media screen and (min-width: 480px) {
   header {
@@ -182,6 +183,8 @@ header {
   justify-content: center;
   margin-left: auto;
   margin-top: 7px;
+  border: 0;
+  background-color: #FFFFFF;
 }
 .header__modal svg {
   width: 44px;
@@ -192,13 +195,34 @@ header {
   display: none;
 }
 
+.is-open .header__icon-cross {
+  display: block;
+}
+
+.is-open .header__icon-menu {
+  display: none;
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+}
+
 .mobile-menu {
+  opacity: 0;
   position: absolute;
   width: 100%;
   height: 100vh;
   top: 100%;
   left: 0;
   background-color: grey;
+}
+.mobile-menu__link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 body {
