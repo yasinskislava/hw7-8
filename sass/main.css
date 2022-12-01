@@ -111,6 +111,7 @@ header {
 }
 @media screen and (min-width: 768px) {
   header {
+    padding-top: 24px;
     height: 80px;
   }
 }
@@ -118,6 +119,11 @@ header {
 .navigation {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .navigation {
+    width: 738px;
+  }
 }
 .navigation__icon::before {
   content: "";
@@ -137,9 +143,11 @@ header {
   letter-spacing: 0.02em;
   transition: color 250ms linear 50ms;
 }
+.navigation__contact-list {
+  flex-direction: column;
+}
 
 .navigation__list {
-  margin: 32px 0px;
   padding: 0px;
   display: none;
 }
@@ -155,7 +163,9 @@ header {
   position: relative;
   display: inline;
   margin-right: 30px;
-  height: 48px;
+  height: 56px;
+  justify-content: center;
+  padding-top: 6px;
 }
 .navigation__list li:last-child {
   margin-right: 0px;
@@ -183,9 +193,9 @@ header {
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  margin-top: 7px;
   border: 0;
   background-color: #FFFFFF;
+  margin-top: 7px;
 }
 @media screen and (min-width: 768px) {
   .header__modal {
@@ -525,7 +535,7 @@ body {
 }
 
 #navigation__mail {
-  margin-left: 299px;
+  margin-left: 0px;
 }
 
 .contacts {
@@ -826,9 +836,14 @@ body {
   color: #2196F3;
 }
 
-@media screen and (min-width: 480px) {
+.navigation__logo {
+  height: 60px;
+  padding-top: 15px;
+}
+@media screen and (min-width: 768px) {
   .navigation__logo {
-    margin: 15px 0px 15px 15px;
+    padding: 0px;
+    height: 56px;
   }
 }
 

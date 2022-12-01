@@ -8,9 +8,12 @@ header {
     position: fixed;
     z-index: 2;
     height: 60px;
+    
     @media screen and (min-width:768px) 
     {
+        padding-top: 24px;
         height: 80px;  
+       
     }
     
 }
@@ -19,7 +22,10 @@ header {
 .navigation {
     display: flex;
     justify-content: space-between;
-
+    @media screen and (min-width:768px) 
+    {
+        width: 738px;    
+    }
     &__icon::before 
     {
         content: "";
@@ -43,10 +49,14 @@ header {
         letter-spacing: 0.02em;
         transition: color 250ms linear 50ms;
     }
+    &__contact-list
+    {
+        
+        flex-direction: column;
+    }
 }
 
 .navigation__list {
-    margin: 32px 0px;
     padding: 0px;
     display: none;
     @media screen and (min-width:768px)
@@ -63,7 +73,9 @@ header {
         position: relative;
         display: inline;
         margin-right: 30px;
-        height: 48px;
+        height: 56px;
+        justify-content: center;
+        padding-top: 6px;
     }
 
     li:last-child 
@@ -99,9 +111,9 @@ header {
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    margin-top: 7px;
     border: 0;
     background-color: #FFFFFF;
+    margin-top: 7px;
     svg
     {
         width: 44px;
