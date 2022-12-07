@@ -3,19 +3,13 @@
 
     .team 
     {
-        @media screen and (min-width:480px) 
-        {
-            width: 100%;
-            background-color: #F5F4FA;
-            padding: 60px 0px;
-        }
+        width: 100%;
+        background-color: #F5F4FA;
+        padding: 60px 0px;
         &__photo 
         {
-            @media screen and (min-width:480px) 
-            {
-                width: 450px;
-                height: 460px;
-            }
+            width: 450px;
+            height: 460px;
             @media screen and (min-width:768px) 
             {
                 width: 354px;
@@ -49,51 +43,40 @@
         }
         h3 
         {
-            @media screen and (min-width:480px) 
-            {
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.2;
-                text-align: center;
-                letter-spacing: 0.03em;
-                width: 100%;
-                margin: 24px 0px 10px 0px;
-            }
-            
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.2;
+            text-align: center;
+            letter-spacing: 0.03em;
+            width: 100%;
+            margin: 24px 0px 10px 0px;
         }
 
         p 
         {
-            @media screen and (min-width:480px) 
-            {
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 1.2;
-                text-align: center;
-                letter-spacing: 0.03em;
-                width: 100%;
-                margin-bottom:16px;
-                color: $passivecolor;
-            }
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.2;
+            text-align: center;
+            letter-spacing: 0.03em;
+            width: 100%;
+            margin-bottom:16px;
+            color: $passivecolor;
         }
 
         > li 
         {
-            @media screen and (min-width:480px) 
-            {
-                width: 450px;
-                height: 622px;
-                background-color: #FFFFFF;
-                box-shadow:
-                    0px 1px 3px rgba(0, 0, 0, 0.12),
-                    0px 1px 1px rgba(0, 0, 0, 0.14),
-                    0px 2px 1px rgba(0, 0, 0, 0.2);
-
-                border-radius: 0px 0px 4px 4px;
-                margin-right: 0px;
-                margin-bottom:30px;
-                padding-bottom: 24px;
-            }
+            width: 450px;
+            height: 622px;
+            background-color: #FFFFFF;
+            box-shadow:
+                0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            margin-right: 0px;
+            margin-bottom:30px;
+            padding-bottom: 24px;
             @media screen and (min-width:768px) 
             {
                 margin-right: 30px;

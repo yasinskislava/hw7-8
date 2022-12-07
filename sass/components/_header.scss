@@ -13,7 +13,6 @@ header {
     {
         padding-top: 24px;
         height: 80px;  
-       
     }
     
 }
@@ -21,10 +20,17 @@ header {
 
 .navigation {
     display: flex;
-    justify-content: space-between;
+    
     @media screen and (min-width:768px) 
     {
-        width: 738px;    
+        margin-left: auto;
+        margin-right: auto;
+        width: 738px; 
+        gap: 90px;   
+    }
+    @media screen and (min-width:1200px) 
+    {
+        width: 1170px;    
     }
     &__icon::before 
     {
@@ -51,38 +57,47 @@ header {
     }
     &__contact-list
     {
-        
-        flex-direction: column;
+        @media screen and (max-width:1199px) 
+        {
+            flex-direction: column;
+            gap: 0px;            
+        }
+        @media screen and (min-width:1200px) 
+        {
+            margin-left: 150px;    
+        }
     }
 }
 
 .navigation__list {
     padding: 0px;
     display: none;
+    gap: 30px;
     @media screen and (min-width:768px)
     {
         display: flex;
+    }
+    @media screen and (max-width:1199px) 
+    {
+        gap: 0px;    
+    }
+    @media screen and (min-width:1200px) 
+    {
+        gap: 30px;    
     }
     a:hover 
     {
         color: $gencolor;
     }
-
     li 
     {
         position: relative;
         display: inline;
-        margin-right: 30px;
+        
         height: 56px;
         justify-content: center;
         padding-top: 6px;
     }
-
-    li:last-child 
-    {
-        margin-right: 0px;
-    }
-    
 }
 
 #highlight-page {
@@ -226,4 +241,8 @@ header {
         margin-left: auto;
         margin-right: auto;
     }
+}
+#pages-list
+{
+    gap: 30px;
 }

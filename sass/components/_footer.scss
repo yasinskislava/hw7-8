@@ -1,36 +1,25 @@
 @import "../utils/pattern";
 
 footer {
-    @media screen and (min-width: 480px) 
-    {
-        font-weight: 400;
-        background-color: #2F303A;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        padding: 60px 0px;
-    }
-    
+    font-weight: 400;
+    background-color: #2F303A;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    padding: 60px 0px;    
 }
 
 address {
-    @media screen and (min-width: 480px) 
-    {
-        margin-top: 20px;
-        width: 231px;
-        font-style: normal; 
-    }
-    
+    margin-top: 20px;
+    width: 231px;
+    font-style: normal;
 }
 
 .footer__container 
 {
-    @media screen and (min-width: 480px) 
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }    
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
     @media screen and (min-width:768px) 
     {
         flex-direction: row;
@@ -65,10 +54,7 @@ address {
         }
         > div:last-child
         {
-            @media screen and (min-width: 480px)
-            {
-               margin: 0px; 
-            }
+            margin: 0px; 
             @media screen and (min-width: 768px) 
             {
                 width: 100%;    
@@ -86,81 +72,61 @@ address {
 
 .footer__social 
 {
-    @media screen and (min-width: 480px) 
-    {
-       display: flex;  
-       justify-content: center;
-    }
-    
-
+    display: flex;  
+    justify-content: center;
     li 
     {
-            width: 44px;
-            height: 44px;
-            margin-right: 10px;
-        
-        
+        width: 44px;
+        height: 44px;
+        margin-right: 10px;
     }
 
     li:last-child 
     {
-        
-           margin: 0px; 
-        
+        margin: 0px; 
     }
 
     svg 
     {
-        
-            width: 20px;
-            height: 20px;
-            fill: currentColor; 
-        
-        
+        width: 20px;
+        height: 20px;
+        fill: currentColor; 
     }
 
     &-link 
     {
-        
-            width: 44px;
-            height: 44px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 25px;
-            color: #FFFFFF;
-            transition: background-color 250ms linear 50ms;
-        
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 25px;
+        color: #FFFFFF;
+        transition: background-color 250ms linear 50ms;
     }
 
     &-link:hover 
     {
-        
-            background-color: #2196F3;
-        
-        
+        background-color: #2196F3;
     }
 }
 
 .footer__input 
 {
-    @media screen and (min-width: 480px) 
-    {
-        width: 358px;
-        height: 50px;
-        background-color: #2F303A;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 4px;
-        margin-bottom: 20px;
-        padding-left: 16px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-        transition: border 250ms linear 50ms;
-    }
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border 250ms linear 50ms;
     @media screen and (min-width:768px) 
     {
         width: 450px;    
@@ -173,74 +139,51 @@ address {
     }
     &:hover 
     {
-        @media screen and (min-width: 480px) 
-        {
-            border-color: $gencolor;
-        }
+        border-color: $gencolor;
     }
 }
 
 .footer {
     &__icon 
     {
-        @media screen and (min-width: 480px) 
-        {
-            width: 24px;
-            height: 24px;
-            fill: #FFFFFF;
-            margin-left: 10px;
-        }
+        width: 24px;
+        height: 24px;
+        fill: #FFFFFF;
+        margin-left: 10px;
     }
 
     &__btn 
     {
-        @media screen and (min-width: 480px) 
-        {
-            display: flex;
-            align-items: center;
-            padding: 0px 28px;
-        }
-        
+        display: flex;
+        align-items: center;
+        padding: 0px 28px;
     }
     &__title 
     {
-        @media screen and (min-width: 480px) 
-        {
-            width: 100%;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 1.1;
-            letter-spacing: 0.03em;
-            width: 100%;
-            color: #FFFFFF;
-            margin-bottom: 20px;
-        }
+        width: 100%;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        width: 100%;
+        color: #FFFFFF;
+         margin-bottom: 20px;
     }
 
     &__contact a 
     {
-        @media screen and (min-width: 480px) 
-        {
-            display: block;
-            margin-top: 8px;
-        }
+        display: block;
+        margin-top: 8px;
     }
     &-logo 
     {   
-        @media screen and (min-width:480px) 
-        {
-            align-items: center; 
-              
-        }
+        align-items: center; 
     }
     &__ads
     {
-        @media screen and (min-width:480px) 
-        {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         @media screen and (min-width:1200px) 
         {
             flex-direction: row;
