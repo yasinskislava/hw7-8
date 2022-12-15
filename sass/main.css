@@ -75,6 +75,12 @@
   margin-right: 0px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h1,
 h2,
 h3,
@@ -165,6 +171,11 @@ header {
   }
 }
 
+#highlight-page {
+  color: #2196F3;
+  height: 56px;
+}
+
 .navigation__list {
   padding: 0px;
   display: none;
@@ -191,13 +202,17 @@ header {
 .navigation__list li {
   position: relative;
   display: inline;
-  height: 56px;
   justify-content: center;
-  padding-top: 6px;
 }
-
-#highlight-page {
-  color: #2196F3;
+@media screen and (max-width: 1199px) {
+  .navigation__list li {
+    padding-top: 6px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navigation__list a {
+    height: 30px;
+  }
 }
 
 #highlight-page::after {
@@ -206,9 +221,14 @@ header {
   position: absolute;
   height: 4px;
   width: 103%;
-  bottom: 0px;
+  bottom: 4px;
   background-color: #2196F3;
   border-radius: 2px;
+}
+@media screen and (min-width: 1200px) {
+  #highlight-page::after {
+    bottom: 0px;
+  }
 }
 
 .header__modal {
@@ -535,6 +555,19 @@ address {
   display: flex;
   align-items: center;
   transition: color 250ms linear 50ms;
+}
+@media screen and (min-width: 768px) {
+  .contacts_base {
+    top: -15px;
+    height: 30px;
+    width: 164px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts_base {
+    padding-top: 15px;
+    height: 56px;
+  }
 }
 
 #navigation__mail {

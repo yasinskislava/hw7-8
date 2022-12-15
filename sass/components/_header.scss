@@ -8,7 +8,6 @@ header {
     position: fixed;
     z-index: 2;
     height: 60px;
-    
     @media screen and (min-width:768px) 
     {
         padding-top: 24px;
@@ -68,7 +67,10 @@ header {
         }
     }
 }
-
+#highlight-page {
+    color: $gencolor;
+    height: 56px;
+}
 .navigation__list {
     padding: 0px;
     display: none;
@@ -93,16 +95,23 @@ header {
     {
         position: relative;
         display: inline;
-        
-        height: 56px;
         justify-content: center;
-        padding-top: 6px;
+        @media screen and (max-width:1199px){
+            padding-top: 6px;
+        }
+        
+        
+    }
+    a
+    {
+        @media screen and (min-width:768px)
+        {
+            height: 30px;
+        }
     }
 }
 
-#highlight-page {
-    color: $gencolor;
-}
+
 
 #highlight-page::after {
     content: "";
@@ -110,9 +119,12 @@ header {
     position: absolute;
     height: 4px;
     width: 103%;
-    bottom: 0px;
+    bottom: 4px;
     background-color: $gencolor;
     border-radius: 2px;
+    @media screen and (min-width:1200px){
+        bottom: 0px;
+    }
 }
 .header__modal
 {
