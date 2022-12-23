@@ -7,24 +7,36 @@
         background-image:
         linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../images/img-m.jpg);
+        url(../../images/hero-m@1x.jpg);
         padding: 118px 60px;
+        @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi)
+        {
+            background-color: url(../../images/hero-m@2x.jpg);
+        }
         
         @media screen and (min-width:768px) 
         {
             background-image:
                     linear-gradient(rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
-                    url(../images/img-t.jpg);
+                    url(../../images/hero-tab@1x.jpg);
+            @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) 
+            {
+                background-color: url(../../images/hero-tab@2x.jpg);
+            }
         }
         @media screen and (min-width:1200px) 
         {
             background-image:
                     linear-gradient(rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
-                    url(../images/img.jpg);
+                    url(../../images/hero-desk@1x.jpg);
             height: 600px;
             padding: 200px 0px;
+            @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) 
+            {
+                background-image: url(../../images/hero-desk@2x.jpg);    
+            }
         }
         
         

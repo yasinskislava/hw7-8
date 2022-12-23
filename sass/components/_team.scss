@@ -6,21 +6,6 @@
         width: 100%;
         background-color: #F5F4FA;
         padding: 60px 0px;
-        &__photo 
-        {
-            width: 450px;
-            height: 460px;
-            @media screen and (min-width:768px) 
-            {
-                width: 354px;
-                height: 374px;    
-            }
-            @media screen and (min-width:1200px) 
-            {
-                width: 270px;
-                height: 260px;    
-            }
-        }
     }
 
     .team__social {
