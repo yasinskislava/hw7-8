@@ -6,6 +6,7 @@ header {
     width: 100%;
     background-color: #FFFFFF;
     position: fixed;
+    top: 0;
     z-index: 2;
     height: 60px;
     @media screen and (min-width:768px) 
@@ -13,7 +14,7 @@ header {
         padding-top: 24px;
         height: 80px;  
     }
-    
+    border-bottom: 2px solid #ECECEC;
 }
 
 

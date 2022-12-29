@@ -115,8 +115,10 @@ header {
   width: 100%;
   background-color: #FFFFFF;
   position: fixed;
+  top: 0;
   z-index: 2;
   height: 60px;
+  border-bottom: 2px solid #ECECEC;
 }
 @media screen and (min-width: 768px) {
   header {
@@ -433,7 +435,7 @@ body {
   top: 0px;
   left: 0px;
   margin: 0px;
-  padding: 63px 24px;
+  padding: 50px 24px;
   overflow: hidden;
   font-family: "Roboto";
   font-weight: 400;

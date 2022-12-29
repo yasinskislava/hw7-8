@@ -103,7 +103,7 @@
                     <button type="button" class="btn" data-open-modal>Замовити послугу</button>
                 </div>
                 <div class="backdrop is-hidden" data-backdrop>
-                    <div class="modal">
+                    <form class="modal">
                         <button class="modal__close-button" data-close-modal>
                             <svg>
                                 <use href="./images/symbol-defs.svg#vector"></use>
@@ -116,7 +116,7 @@
                             <label class="modal__input-name">
                                 Ім'я
                                 <div>
-                                    <input type="text" class="modal__input">
+                                    <input type="text" class="modal__input" required>
                                     <svg class="modal__icon">
                                         <use href="./images/symbol-defs.svg#avatar"></use>
                                     </svg>
@@ -128,7 +128,7 @@
                             <label class="modal__input-name">
                                 Телефон
                                 <div>
-                                    <input type="text" class="modal__input">
+                                    <input type="text" class="modal__input" required>
                                     <svg class="modal__icon">
                                         <use href="./images/symbol-defs.svg#phone1"></use>
                                     </svg>
@@ -140,7 +140,7 @@
                             <label class="modal__input-name">
                                 Пошта
                                 <div>
-                                    <input type="text" class="modal__input">
+                                    <input type="text" class="modal__input" required>
                                     <svg class="modal__icon">
                                         <use href="./images/symbol-defs.svg#letter"></use>
                                     </svg>
@@ -169,7 +169,7 @@
                            <button type="submit" class="btn" data-close-modal>Надіслати</button> 
                         </div>
                         
-                    </div>
+                    </form>
                 </div>
             
         </section>
@@ -245,10 +245,10 @@
                 <ul class="team__social section-flex">
                     <li>
                         <picture>
-                            <source srcset="./images/team1-m@1x.jpg 1x, ./images/team1-m@2x.jpg 2x" media="max-width: 768px">
-                            <source srcset="./images/team1-tab@1x.jpg 1x, ./images/team1-tab@2x.jpg 2x" media="min-width: 768px">
-                            <source srcset="./images/team1-desk@1x.jpg 1x, ./images/team1-desk@2x.jpg 2x" media="min-width: 1200px">
-                            <img src="./images/team1-m@1x.jpg" alt="">
+                            <source srcset="./images/team1-m@1x.jpg 1x, ./images/team1-m@2x.jpg 2x" media="(max-width: 767px)">
+                            <source srcset="./images/team1-tab@1x.jpg 1x, ./images/team1-tab@2x.jpg 2x" media="(min-width: 768px)">
+                            <source srcset="./images/team1-desk@1x.jpg 1x, ./images/team1-desk@2x.jpg 2x" media="(min-width: 1200px)">
+                            <img src="./images/team1-desk@1x.jpg" alt="first-team-member">
                         </picture>
                         <h3>Ігор Дем'яненко</h3>
                         <p>Product Designer</p>
@@ -287,10 +287,11 @@
 
                     <li>
                         <picture>
-                            <source srcset="./images/team2-m@1x.jpg 1x, ./images/team2-m@2x.jpg 2x" media="max-width: 768px">
-                            <source srcset="./images/team2-tab@1x.jpg 1x, ./images/team2-tab@2x.jpg 2x" media="min-width: 768px">
-                            <source srcset="./images/team2-desk@1x.jpg 1x, ./images/team2-desk@2x.jpg 2x" media="min-width: 1200px">
-                            <img src="./images/team2-m@1x.jpg" alt="">
+                            <source srcset="./images/team2-m@1x.jpg 1x, ./images/team2-m@2x.jpg 2x" media="(max-width: 767px)">
+                            <source srcset="./images/team2-desk@1x.jpg 1x, ./images/team2-desk@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/team2-tab@1x.jpg 1x, ./images/team2-tab@2x.jpg 2x" media="(min-width: 768px)">
+                            
+                            <img src="./images/team2-desk@1x.jpg" alt="second-team-member">
                         </picture>
                         <h3>Ольга Репіна</h3>
                         <p>Frontend Developer</p>
@@ -329,10 +330,10 @@
 
                     <li>
                         <picture>
-                            <source srcset="./images/team3-m@1x.jpg 1x, ./images/team3-m@2x.jpg 2x" media="max-width: 768px">
-                            <source srcset="./images/team3-tab@1x.jpg 1x, ./images/team3-tab@2x.jpg 2x" media="min-width: 768px">
-                            <source srcset="./images/team3-desk@1x.jpg 1x, ./images/team3-desk@2x.jpg 2x" media="min-width: 1200px">
-                            <img src="./images/team3-m@1x.jpg" alt="">
+                            <source srcset="./images/team3-m@1x.jpg 1x, ./images/team3-m@2x.jpg 2x" media="(max-width: 767px)">
+                            <source srcset="./images/team3-desk@1x.jpg 1x, ./images/team3-desk@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/team3-tab@1x.jpg 1x, ./images/team3-tab@2x.jpg 2x" media="(min-width: 768px)">
+                            <img src="./images/team3-desk@1x.jpg" alt="third-team-member">
                         </picture>
                         <h3>Микола Тарасов</h3>
                         <p>Marketing</p>
@@ -371,10 +372,10 @@
 
                     <li>
                         <picture>
-                            <source srcset="./images/team4-m@1x.jpg 1x, ./images/team4-m@2x.jpg 2x" media="max-width: 768px">
-                            <source srcset="./images/team4-tab@1x.jpg 1x, ./images/team4-tab@2x.jpg 2x" media="min-width: 768px">
-                            <source srcset="./images/team4-desk@1x.jpg 1x, ./images/team4-desk@2x.jpg 2x" media="min-width: 1200px">
-                            <img src="./images/team4-m@1x.jpg" alt="">
+                            <source srcset="./images/team4-m@1x.jpg 1x, ./images/team4-m@2x.jpg 2x" media="(max-width: 767px)">
+                            <source srcset="./images/team4-desk@1x.jpg 1x, ./images/team4-desk@2x.jpg 2x" media="(min-width: 1200px)">
+                            <source srcset="./images/team4-tab@1x.jpg 1x, ./images/team4-tab@2x.jpg 2x" media="(min-width: 768px)">
+                            <img src="./images/team4-desk@1x.jpg" alt="fourth-team-member">
                         </picture>
                         <h3>Михайло Єрмаков</h3>
                         <p>UI Designer</p>
